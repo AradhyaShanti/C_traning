@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oh no! mobile is lock</title>
+</head>
+
+<body background="la lala la la lalalala .jpg">
+
+<center>
+    <h1>Oh no! Mobile is lock</h1>
+
+    <div>
+        <h1>Enter password from clue</h1>
+        <br>
+        <input id="password" type="number" placeholder="Enter Password">
+        <br>
+        <p>
+        <pre>Clue:
+            3+9-2*15/8+9 = password
+        </pre>
+        </p>
+        <button id="check" onclick="check()">Check</button>
+    </div>
+</center>
+
+</body>
+<script lang="javascript">
+
+    function check() {
+        pass = document.getElementById("password");
+
+        if (pass = "72") {
+            window.location.replace("apps.html");
+            window.location = "apps.html";
+        } else {
+            document.getElementById("password").innerHTML = " ";
+        }
+    }
+</script>
+
+</html>
